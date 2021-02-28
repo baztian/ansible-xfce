@@ -24,9 +24,11 @@
   - name: Solid background
     xfconf:
       channel: xfce4-desktop
-      property: /backdrop/screen0/monitor0/workspace0/image-style
+      property: "{{ item }}"
       value_type: int
       value: "0"
+    with_items:
+      "{{ xfce_backdrops_solid }}"
   - name: No Home icon on desktop
     xfconf:
       channel: xfce4-desktop
