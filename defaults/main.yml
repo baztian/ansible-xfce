@@ -2,6 +2,7 @@
 xfce_backdrops_solid:
 - /backdrop/screen0/monitor0/workspace0/image-style
 - /backdrop/screen0/monitoreDP-1/workspace0/image-style
+- /backdrop/screen0/monitoreVGA-1/workspace0/image-style
 xfce_wm_shortcuts_remove:
 - <Alt>space # Window operations menu
 - <Super>Tab # Switch window for same avi_application
